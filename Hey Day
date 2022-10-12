@@ -1,0 +1,8 @@
+Write "Welcome to Hey Day"
+
+#prompts users to enter their name
+$name= Read-Host -Prompt "Hello! Please give us your name:"
+
+#script tells them "Hey" and include their name
+Write-Host "Hey" $name -Foregroundcolor Yellow
+Write "Thank you for joining us"
